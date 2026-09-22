@@ -1,0 +1,324 @@
+
+/* =========================
+   PÁGINA
+   ========================= */
+
+.artes-page {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 5rem 1.5rem 6rem;
+
+  text-align: center;
+}
+
+
+/* =========================
+   INTRODUCCIÓN
+   ========================= */
+
+.artes-intro {
+  max-width: 700px;
+
+  margin: 0 auto 4rem;
+}
+
+.artes-intro h1 {
+  margin: 0 0 1rem;
+
+  color: #1d2924;
+
+  font-size: 2.3rem;
+  font-weight: 400;
+
+  letter-spacing: 0.02em;
+}
+
+.artes-subtitulo {
+  margin: 0 0 1.8rem;
+
+  color: #571919;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  letter-spacing: 0.04em;
+}
+
+.artes-intro p {
+  margin: 0.8rem 0;
+
+  color: #5a5851;
+
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.artes-intro strong {
+  color: #1d2924;
+  font-weight: 500;
+}
+
+
+/* =========================
+   BLOQUES PRINCIPALES
+   ========================= */
+
+.artes-bloques {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1.5rem;
+
+  margin-bottom: 4.5rem;
+}
+
+.arte-bloque {
+  padding: 2.2rem 1.6rem;
+
+  background: #e8e3d8;
+
+  border-radius: 4px;
+
+  text-align: left;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.arte-bloque:hover {
+  transform: translateY(-4px);
+
+  background-color: #eee9dc;
+
+  box-shadow: 0 10px 25px rgba(29, 41, 36, 0.12);
+}
+
+.arte-bloque h2 {
+  margin: 0 0 1rem;
+
+  color: #1d2924;
+
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  transition: color 0.25s ease;
+}
+
+.arte-bloque:hover h2 {
+  color: #571919;
+}
+
+.arte-bloque p {
+  margin: 0;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.arte-bloque ul {
+  margin: 1.2rem 0 0;
+  padding-left: 1.2rem;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+
+.arte-bloque li {
+  padding-left: 0.2rem;
+}
+
+
+/* =========================
+   ENTRENAMIENTO
+   ========================= */
+
+.artes-entrenamiento {
+  max-width: 720px;
+
+  margin: 0 auto 4.5rem;
+
+  padding: 2.8rem 1.8rem;
+
+  background: rgba(232, 227, 216, 0.35);
+
+  border-top: 1px solid #d8d3c8;
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.artes-entrenamiento h2 {
+  margin: 0 0 1.3rem;
+
+  color: #1d2924;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.artes-entrenamiento p {
+  margin: 0.9rem 0;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+
+/* =========================
+   DOJOS
+   ========================= */
+
+.artes-dojos {
+  max-width: 700px;
+
+  margin: 0 auto;
+}
+
+.artes-dojos h2 {
+  margin: 0 0 1.8rem;
+
+  color: #1d2924;
+
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.dojos-links {
+  display: flex;
+
+  justify-content: center;
+  align-items: stretch;
+
+  gap: 1rem;
+
+  flex-wrap: wrap;
+}
+
+.dojo-link {
+  display: inline-block;
+
+  padding: 0.85rem 1.3rem;
+
+  color: #eee9dc;
+
+  background: #1d2924;
+
+  border: 1px solid #35443d;
+  border-radius: 3px;
+
+  font-size: 0.85rem;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.dojo-link:hover {
+  color: #eee9dc;
+
+  background-color: #571919;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .artes-page {
+    padding: 3.5rem 1.2rem 4rem;
+  }
+
+  .artes-intro {
+    margin-bottom: 3rem;
+  }
+
+  .artes-intro h1 {
+    margin-bottom: 0.8rem;
+
+    font-size: 1.9rem;
+  }
+
+  .artes-subtitulo {
+    margin-bottom: 1.5rem;
+
+    font-size: 0.9rem;
+  }
+
+  .artes-intro p {
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+  }
+
+  .artes-bloques {
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .arte-bloque {
+    padding: 1.8rem 1.2rem;
+
+    text-align: left;
+  }
+
+  .arte-bloque h2 {
+    font-size: 1.15rem;
+  }
+
+  .arte-bloque p,
+  .arte-bloque ul {
+    font-size: 0.9rem;
+
+    line-height: 1.7;
+  }
+
+  .artes-entrenamiento {
+    margin-bottom: 3.5rem;
+
+    padding: 2rem 1rem;
+  }
+
+  .artes-entrenamiento h2 {
+    font-size: 1.25rem;
+  }
+
+  .artes-entrenamiento p {
+    font-size: 0.9rem;
+
+    line-height: 1.7;
+  }
+
+  .artes-dojos h2 {
+    font-size: 1.15rem;
+  }
+
+  .dojos-links {
+    flex-direction: column;
+
+    gap: 0.8rem;
+  }
+
+  .dojo-link {
+    width: 100%;
+
+    padding: 0.85rem 1rem;
+  }
+}

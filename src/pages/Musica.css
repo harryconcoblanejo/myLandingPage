@@ -1,0 +1,243 @@
+/* =========================
+   PÁGINA
+   ========================= */
+
+.musica-page {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 5rem 1.5rem 6rem;
+
+  text-align: center;
+}
+
+
+/* =========================
+   INTRODUCCIÓN
+   ========================= */
+
+.musica-intro {
+  max-width: 680px;
+
+  margin: 0 auto 4rem;
+}
+
+.musica-intro h1 {
+  margin: 0 0 1.5rem;
+
+  color: #1d2924;
+
+  font-size: 2.3rem;
+  font-weight: 400;
+
+  letter-spacing: 0.02em;
+}
+
+.musica-intro p {
+  margin: 0.8rem 0;
+
+  color: #5a5851;
+
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.musica-intro strong {
+  color: #1d2924;
+  font-weight: 500;
+}
+
+
+/* =========================
+   ENFOQUE
+   ========================= */
+
+.musica-enfoque {
+  max-width: 700px;
+
+  margin: 0 auto 4.5rem;
+
+  padding: 2.5rem 1.5rem;
+
+  background: rgba(232, 227, 216, 0.35);
+
+  border-top: 1px solid #d8d3c8;
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.musica-enfoque h2 {
+  margin: 0 0 1.2rem;
+
+  color: #1d2924;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.musica-enfoque p {
+  margin: 0.8rem 0;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+
+/* =========================
+   PROPUESTAS
+   ========================= */
+
+.musica-propuestas {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1.5rem;
+}
+
+.musica-propuesta {
+  padding: 2rem 1.5rem;
+
+  background: #e8e3d8;
+
+  border-radius: 4px;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.musica-propuesta:hover {
+  transform: translateY(-4px);
+
+  background-color: #eee9dc;
+
+  box-shadow: 0 10px 25px rgba(29, 41, 36, 0.12);
+}
+
+.musica-propuesta h2 {
+  margin: 0 0 1rem;
+
+  color: #1d2924;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  transition: color 0.25s ease;
+}
+
+.musica-propuesta:hover h2 {
+  color: #571919;
+}
+
+.musica-propuesta p {
+  margin: 0 0 1.5rem;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   ENLACES
+   ========================= */
+
+.musica-link {
+  display: inline-block;
+
+  padding: 0.75rem 1.2rem;
+
+  color: #eee9dc;
+
+  background: #1d2924;
+
+  border: 1px solid #35443d;
+  border-radius: 3px;
+
+  font-size: 0.85rem;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.musica-link:hover {
+  color: #eee9dc;
+
+  background-color: #571919;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .musica-page {
+    padding: 3.5rem 1.2rem 4rem;
+  }
+
+  .musica-intro {
+    margin-bottom: 3rem;
+  }
+
+  .musica-intro h1 {
+    margin-bottom: 1.2rem;
+
+    font-size: 1.9rem;
+  }
+
+  .musica-intro p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .musica-enfoque {
+    margin-bottom: 3rem;
+
+    padding: 2rem 1rem;
+  }
+
+  .musica-enfoque h2 {
+    font-size: 1.25rem;
+  }
+
+  .musica-enfoque p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .musica-propuestas {
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+  }
+
+  .musica-propuesta {
+    padding: 1.8rem 1.2rem;
+  }
+
+  .musica-propuesta h2 {
+    font-size: 1.15rem;
+  }
+
+  .musica-propuesta p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .musica-link {
+    width: 100%;
+    padding: 0.85rem 1rem;
+  }
+}

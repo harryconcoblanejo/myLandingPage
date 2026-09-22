@@ -1,0 +1,201 @@
+
+/* =========================
+   PÁGINA
+   ========================= */
+
+.medicina-page {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 5rem 1.5rem 6rem;
+
+  text-align: center;
+}
+
+
+/* =========================
+   INTRODUCCIÓN
+   ========================= */
+
+.medicina-intro {
+  max-width: 680px;
+
+  margin: 0 auto 4rem;
+}
+
+.medicina-intro h1 {
+  margin: 0 0 1.5rem;
+
+  color: #1d2924;
+
+  font-size: 2.3rem;
+  font-weight: 400;
+
+  letter-spacing: 0.02em;
+}
+
+.medicina-intro p {
+  margin: 0.8rem 0;
+
+  color: #5a5851;
+
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+
+/* =========================
+   SERVICIOS
+   ========================= */
+
+.medicina-servicios {
+  width: 100%;
+
+  border-top: 1px solid #d8d3c8;
+}
+
+.medicina-servicio {
+  padding: 2rem 1rem;
+
+  border-bottom: 1px solid #d8d3c8;
+
+  transition:
+    background-color 0.25s ease,
+    padding 0.25s ease;
+}
+
+.medicina-servicio:hover {
+  background-color: rgba(232, 227, 216, 0.25);
+}
+
+.medicina-servicio h2 {
+  margin: 0 0 0.7rem;
+
+  color: #1d2924;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.medicina-servicio p {
+  max-width: 620px;
+
+  margin: 0 auto;
+
+  color: #5a5851;
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   FINAL
+   ========================= */
+
+.medicina-final {
+  max-width: 650px;
+
+  margin: 4.5rem auto 0;
+}
+
+.medicina-final p {
+  margin: 0 0 2rem;
+
+  color: #4b4a45;
+
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   GOOGLE
+   ========================= */
+
+.medicina-google {
+  display: inline-block;
+
+  padding: 0.9rem 1.6rem;
+
+  color: #eee9dc;
+
+  background: #1d2924;
+
+  border: 1px solid #35443d;
+  border-radius: 3px;
+
+  font-size: 0.9rem;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.medicina-google:hover {
+  color: #eee9dc;
+
+  background-color: #571919;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .medicina-page {
+    padding: 3.5rem 1.2rem 4rem;
+  }
+
+  .medicina-intro {
+    margin-bottom: 3rem;
+  }
+
+  .medicina-intro h1 {
+    margin-bottom: 1.2rem;
+
+    font-size: 1.9rem;
+  }
+
+  .medicina-intro p {
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+  }
+
+  .medicina-servicio {
+    padding: 1.6rem 0.5rem;
+  }
+
+  .medicina-servicio h2 {
+    font-size: 1.15rem;
+  }
+
+  .medicina-servicio p {
+    font-size: 0.9rem;
+
+    line-height: 1.65;
+  }
+
+  .medicina-final {
+    margin-top: 3.5rem;
+  }
+
+  .medicina-final p {
+    font-size: 0.95rem;
+  }
+
+  .medicina-google {
+    width: 100%;
+
+    padding: 0.9rem 1rem;
+  }
+}
+
