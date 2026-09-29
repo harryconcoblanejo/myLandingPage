@@ -45,7 +45,7 @@ function Navbar() {
               />
             </svg>
 
-            <span >1141636472</span>
+            <span >Mandar mensaje</span>
           </a>
 
         </div>
